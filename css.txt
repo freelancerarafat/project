@@ -1,0 +1,48 @@
+/*****************************
+* Author: Mian Shahzad Raza
+* Organization: WPAcademy.PK
+* Description: Custom Styling for Resume Elementor Template by WP Academy
+*****************************/
+.wpac-custom-nav .elementor-icon-list-item a {
+	padding: 15px 10px;
+}
+.wpac-custom-nav .elementor-icon-list-item a:hover,  .wpac-custom-nav .elementor-icon-list-item a.active{
+	background: #000;
+}
+@media all and (max-width: 1024px) {
+	.wpac-custom-nav, .wpac-custom-social {
+		width: 100% !important;
+		max-width: 100% !important;
+		top: 0;
+		background: #111;
+		height: 60px;
+	}
+	.wpac-custom-social {
+		top: auto;
+		right: auto;
+		bottom: 0;
+		height: 35px;
+		background: rgba(0,0,0,0.9);
+	}
+	.wpac-custom-nav .elementor-icon-list-item a {
+	padding: 15px 10px 12px 10px;
+}
+	.wpac-custom-nav  .elementor-icon-list-items, .wpac-custom-social   .elementor-icon-list-items{
+		display: flex;
+	}
+	.wpac-custom-nav  .elementor-icon-list-items .elementor-icon-list-item, .wpac-custom-social   .elementor-icon-list-items .elementor-icon-list-item {
+		margin: 0 !important;
+		padding: 0 !important;
+		line-height: 1;
+		flex: 1 !important;
+	}
+	.wpac-custom-social .elementor-icon-list-items .elementor-icon-list-item {
+		flex: 1;
+	}
+	.wpac-custom-social .elementor-icon-list-items .elementor-icon-list-item a {
+		padding: 8px;
+	}
+	.wpac-custom-social .elementor-icon-list-items .elementor-icon-list-item a i {
+		color: #fff !important;
+	}
+}
